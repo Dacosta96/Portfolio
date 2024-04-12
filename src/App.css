@@ -4,3 +4,7 @@
   padding: none;
 }
 
+.nav{
+  position: fixed;
+  width: 100%;
+}

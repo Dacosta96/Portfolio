@@ -1,5 +1,6 @@
 import React from "react";
 import './styles.css';
+import foto1 from '../img/foto1.png'
 
 function Home(){
 
@@ -11,7 +12,7 @@ function Home(){
                 <h1 className="profession">Industrial Engineer</h1>
                 <h1 className="profession">Frontend Developer</h1>
             </div>
-            <img className="photo" src="" alt="foto" />
+            <img className="photo" src={foto1} alt="foto" />
         </div>
     )
 }

@@ -11,13 +11,11 @@ import './App.css';
 
 function App() {
 
-  
 
   return (
     
       <>
-     
-      <Navbar />
+      <div className="nav"><Navbar /></div>
       <div className="app">
             <Home/>
             <AboutMe/>

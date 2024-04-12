@@ -4,6 +4,7 @@
     background: #2D3944 ;
     height: 85vh;
     color: white;
+    justify-content: center;
 }
 .description{
     display:flex;
@@ -24,7 +25,9 @@
     color: #03932D;
 }
 .photo{
-    width: 60%;
+    width: 20%;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
+    image-rendering: auto;
 }
