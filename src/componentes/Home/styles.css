@@ -1,0 +1,30 @@
+.home{
+    display:flex;
+    padding-top: 100px;
+    background: #2D3944 ;
+    height: 85vh;
+    color: white;
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    width: 40%;
+}
+.hi{
+    margin: 0;
+}
+.name{
+    margin-top: 0;
+    font-size: 4vw;
+}
+.profession{
+    margin: 0;
+    color: #03932D;
+}
+.photo{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
