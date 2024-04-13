@@ -1,4 +1,24 @@
 .portfolio{
     background:#2D3944;
     height: 100vh;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.proyects{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.proyects div{
+    background: black;
+    width: 25%;
+    height: 50vh;
+    margin: 26px;
+}
+
+.buttonMoreProyect{
+   margin-top: 100px;
 }

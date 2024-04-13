@@ -1,4 +1,25 @@
 .contact{
-    background:#2D3944;
+    background:#4a91d3;
     height: 100vh;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+  
+}
+
+.info div{
+    width: auto;
+    padding: 12px;
+    background: black;
+    margin: 0 150px;
+}
+
+.send{
+    margin-top: 150px;
 }
