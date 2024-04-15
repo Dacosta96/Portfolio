@@ -1,32 +1,29 @@
 //import React from "react";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles.css';
 import foto1 from '../img/foto1.png'
 
-function Home(){
+function Home(){  
 
-
-    const cambiarColor = (event) => {
-        const x = event.clientX;
-        const y = event.clientY;
-        document.documentElement.style.setProperty('--position-x', x+'px');
-        document.documentElement.style.setProperty('--position-y', y+'px');
-
-        console.log(x);
-        console.log(y);
-      };
+        const [texto, setTexto] = useState('Frontend Developer');
+      
+        useEffect(() => {
+          const intervalo = setInterval(() => {
+            // Alternar entre dos textos
+            setTexto(prevTexto => (prevTexto === 'Industrial Engineer' ? 'Frontend Developer' : 'Industrial Engineer'));
+          }, 3000); // Cambiar cada x segundos
+      
+          // Limpieza del intervalo en el desmontaje del componente
+          return () => clearInterval(intervalo);
+        }, []); // Solo se ejecuta una vez al montar el componente
     
-      
      
-      
-
     return(
-        <div className="home" onMouseMove={cambiarColor}>
+        <div className="home">
             <div className="description">
                 <h2 className="hi">Hi, I´m </h2>
                 <h1 className="name">Diego Acosta</h1>
-                <h1 className="profession">Industrial Engineer</h1>
-                <h1 className="profession">Frontend Developer</h1>
+                <h1 className="profession">{texto}</h1>
             </div>
             <img className="photo" src={foto1} alt="foto" />
         </div>

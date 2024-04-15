@@ -1,16 +1,8 @@
-:root {
-    --position-x: center;
-    --position-y: center;
-  }
-
 .home{
     display:flex;
-    padding-top: 100px;
-    height: 85vh;
+    height: 100vh;
     color: white;
     justify-content: center;
-    background: radial-gradient(circle at var(--position-x) var(--position-y), rgb(23, 50, 40) ,rgb(15 23 42)50%) ;
-  
 }
 .description{
     display:flex;
@@ -21,21 +13,73 @@
 }
 .hi{
     margin: 0;
+    white-space: nowrap;
+    border-right:  4px solid;
+    width: 6ch;
+    animation: typinghi 3s steps(6), 
+                blinkshi .5s infinite step-end alternate;
+    overflow: hidden;
 }
+
+@keyframes typinghi {
+    from {
+      width: 0; /* Comienza con un ancho de 0 */
+    }
+  }
+
+@keyframes blinkshi {
+    50% {border-color: transparent;}
+}
+
 .name{
     margin-top: 0;
+    margin-bottom: 12px;
     font-size: 4vw;
+    white-space: nowrap;
+    border-right:  4px solid;
+    width: 11ch;
+    animation: typingname 3s steps(11), 
+                blinksname .5s infinite step-end alternate;
+    animation-delay: 3s;
+    overflow: hidden;
+}
+@keyframes typingname {
+    from {
+      width: 0; /* Comienza con un ancho de 0 */
+    }
+  }
+
+@keyframes blinksname {
+    50% {border-color: transparent;}
 }
 .profession{
     margin: 0;
     color: #03932D;
+    animation-name: viewProfession;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    opacity: 0%;
+}
+@keyframes viewProfession {
+   
+    0% {
+        opacity: 0; /* Opacidad inicial */
+      }
+      50% {
+        opacity: 1; /* Opacidad media */
+      }
+      100% {
+        opacity: 0; /* Opacidad final */
+      }
 }
 .photo{
     width: 20%;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     image-rendering: auto;
+    border-radius:24px;
+
 }
 
 

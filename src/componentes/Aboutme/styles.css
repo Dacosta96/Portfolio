@@ -1,9 +1,8 @@
 
 .container{
-    background:#688aaa;
     height: 100vh;
     display: flex;
-    padding-top: 100px;
+    padding-top: 50px;
     color: white;
 }
 

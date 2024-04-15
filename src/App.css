@@ -1,7 +1,14 @@
+:root {
+  --position-x: center;
+  --position-y: 1000px;
+}
+
 .app {
   display: flex;
   flex-direction: column;
   padding: none;
+  background: radial-gradient(circle at var(--position-x) var(--position-y), rgb(39, 48, 69) ,rgb(15 23 42)20%) ;
+  transition: background-color 0.3s ease;
 }
 
 .nav{

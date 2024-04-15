@@ -10,13 +10,21 @@ import './App.css';
 
 
 function App() {
+  
+  const cambiarColor = (event) => {
+    const x = event.clientX;
+    const y = event.clientY + window.scrollY;
+    document.documentElement.style.setProperty('--position-x', x+'px');
+    document.documentElement.style.setProperty('--position-y', y+'px');
 
+  };
 
+ 
   return (
     
       <>
       <div className="nav"><Navbar /></div>
-      <div className="app">
+      <div className="app"  onMouseMove={cambiarColor}>
             <Home/>
             <AboutMe/>
             <Portfolio/>
