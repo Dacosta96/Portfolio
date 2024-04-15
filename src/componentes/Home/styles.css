@@ -1,10 +1,16 @@
+:root {
+    --position-x: center;
+    --position-y: center;
+  }
+
 .home{
     display:flex;
     padding-top: 100px;
-    background: #2D3944 ;
     height: 85vh;
     color: white;
     justify-content: center;
+    background: radial-gradient(circle at var(--position-x) var(--position-y), rgb(23, 50, 40) ,rgb(15 23 42)50%) ;
+  
 }
 .description{
     display:flex;
@@ -31,3 +37,5 @@
     padding-bottom: 20px;
     image-rendering: auto;
 }
+
+
