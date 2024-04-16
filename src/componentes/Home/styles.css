@@ -14,10 +14,8 @@
 .hi{
     margin: 0;
     white-space: nowrap;
-    border-right:  4px solid;
     width: 6ch;
-    animation: typinghi 3s steps(6), 
-                blinkshi .5s infinite step-end alternate;
+    animation: typinghi 3s steps(6);
     overflow: hidden;
 }
 
@@ -27,37 +25,35 @@
     }
   }
 
-@keyframes blinkshi {
-    50% {border-color: transparent;}
-}
 
 .name{
     margin-top: 0;
     margin-bottom: 12px;
     font-size: 4vw;
-    white-space: nowrap;
-    border-right:  4px solid;
-    width: 11ch;
-    animation: typingname 3s steps(11), 
-                blinksname .5s infinite step-end alternate;
+    animation-name: viewName;
+    animation-duration: 4s;
     animation-delay: 3s;
-    overflow: hidden;
+    animation-fill-mode: forwards;
+    opacity: 0%;
 }
-@keyframes typingname {
-    from {
-      width: 0; /* Comienza con un ancho de 0 */
+@keyframes viewName {
+   
+  0% {
+      opacity: 0; 
     }
-  }
-
-@keyframes blinksname {
-    50% {border-color: transparent;}
+    100% {
+      opacity: 1; 
+    }
+  
 }
+
 .profession{
     margin: 0;
     color: #03932D;
     animation-name: viewProfession;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+    animation-delay: 6s;
     opacity: 0%;
 }
 @keyframes viewProfession {
@@ -79,7 +75,21 @@
     padding-bottom: 0px;
     image-rendering: auto;
     border-radius:24px;
+    animation-name: viewPhoto;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0%;
 
 }
-
+@keyframes viewPhoto {
+   
+  0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1; 
+    }
+  
+}
 

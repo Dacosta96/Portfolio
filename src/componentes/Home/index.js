@@ -17,12 +17,15 @@ function Home(){
           return () => clearInterval(intervalo);
         }, []); // Solo se ejecuta una vez al montar el componente
     
+
      
     return(
         <div className="home">
             <div className="description">
-                <h2 className="hi">Hi, I´m </h2>
-                <h1 className="name">Diego Acosta</h1>
+             
+                  <h2 className="hi">Hi, I´m </h2>
+                  <h1 className="name">Diego Acosta</h1>
+                
                 <h1 className="profession">{texto}</h1>
             </div>
             <img className="photo" src={foto1} alt="foto" />
