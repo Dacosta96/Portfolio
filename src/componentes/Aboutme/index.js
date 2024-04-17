@@ -1,18 +1,60 @@
 import React from "react";
 import './styles.css';
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
+import logoReact from '../img/LogoReact.png';
+import logoJS from '../img/LogoJs.png';
 import logoHtml from '../img/LogoHtml.png';
 import logoCss from '../img/LogoCss.png';
-import logogit from '../img/Logogit.png';
-import logogithub from '../img/Logogithub.png';
-import logojs from '../img/LogoJs.png';
-import logoreact from '../img/LogoReact.png';
-import logotail from '../img/LogoTaiw.png';
-import logovcode from '../img/LogoVcode.png';
-
-
+import logoTailw from '../img/LogoTaiw.png';
+import logoGit from '../img/Logogit.png';
+import logoGitHub from '../img/Logogithub.png';
+import logoVcode from '../img/LogoVcode.png';
 
 function AboutMe(){
+
+    const skills=[
+        { name: 'React.js',
+          image:logoReact
+        },
+        { name: 'Javascript',
+          image:logoJS
+        },
+        { name: 'Html',
+          image:logoHtml
+        },
+        { name: 'Css',
+        image:logoCss
+      },
+      { name: 'Tailwindcss',
+      image:logoTailw
+    },
+    { name: 'Git',
+    image:logoGit
+  },
+  { name: 'GitHub',
+  image:logoGitHub
+},
+{ name: 'Visual code',
+image:logoVcode
+},
+
+    ]
+
+    const viewTags = (skills) =>{
+
+            return(
+                    <div className="tags">
+                        {skills.map((skill, index) => (
+                            <div key={index} className="icon-cards__content">
+                                <img className="item" src={skill.image} alt={skill.name} />
+                                <p className="textLogo">{skill.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                      
+             
+        )
+    }
 
     return(
         <>
@@ -47,18 +89,9 @@ function AboutMe(){
             </div>
             <div className="skills">
                 <p>Skills</p>
-                        <div className="icon-cards__content">   
-                            <img  className="item8" src={logovcode} alt="Vcode" />
-                            <div><img  className="item6" src={logotail} alt="Tailw" />
-                            <img  className="item3" src={logogit} alt="git" />
-                            <img  className="item4" src={logogithub} alt="GitHub" /></div>           
-                            <div><img  className="item1" src={logoHtml} alt="html" />
-                            <img  className="item2" src={logoCss} alt="css" />
-                            <img  className="item7" src={logojs} alt="Js" />
-                            <img  className="item5" src={logoreact} alt="React" /></div>
-                        </div>
+                 {viewTags(skills)}
             </div>
-            </div>
+        </div>
         </>
     )
 }

@@ -21,12 +21,14 @@ function Home(){
      
     return(
         <div className="home">
-            <div className="description">
-             
+            <div className="description"> 
                   <h2 className="hi">Hi, I´m </h2>
                   <h1 className="name">Diego Acosta</h1>
-                
-                <h1 className="profession">{texto}</h1>
+                  <h1 className="profession">{texto}</h1>
+                  <div>
+                    <p>liknelin</p>
+                    <p>cv</p>
+                  </div>
             </div>
             <img className="photo" src={foto1} alt="foto" />
         </div>
