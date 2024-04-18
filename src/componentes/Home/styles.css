@@ -1,6 +1,6 @@
 .home{
     display:flex;
-    height: 100vh;
+    height: auto;
     color: white;
     justify-content: center;
 }
@@ -14,7 +14,7 @@
     margin: 0;
     white-space: nowrap;
     width: 6ch;
-    animation: typinghi 3s steps(6);
+    animation: typinghi 2s steps(6);
     overflow: hidden;
 }
 
@@ -50,9 +50,9 @@
     margin: 0;
     color: #03932D;
     animation-name: viewProfession;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-delay: 6s;
+    animation-delay: 4s;
     opacity: 0%;
 }
 @keyframes viewProfession {
@@ -92,3 +92,50 @@
   
 }
 
+.icon-cards{
+  display: flex;
+  border: black solid; 
+  align-items: center;
+  width: max-content;
+  max-height: 30px;
+  border-radius: 16px;
+  padding: 4px;
+  background: rgb(6, 10, 20);
+  margin-left: 32px;
+  margin-top: 32px;
+  color: white;
+  animation-name: viewTag;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0%;
+ 
+}
+.icon-cards:hover{
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.itemHome{
+    width: 24px;
+    height: 24px;
+}
+
+.tagsHome{
+    display: flex;
+   flex-direction: column;
+   margin-top: 70px;
+   align-items: center;
+   width: 50%;
+}
+
+@keyframes viewTag {
+   
+  0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1; 
+    }
+  
+}

@@ -23,7 +23,7 @@ function App() {
   return (
     
       <>
-      <div className="nav"><Navbar /></div>
+      {/* <div className="nav"><Navbar /></div> */}
       <div className="app"  onMouseMove={cambiarColor}>
             <Home/>
             <AboutMe/>

@@ -23,20 +23,20 @@ function AboutMe(){
           image:logoHtml
         },
         { name: 'Css',
-        image:logoCss
-      },
-      { name: 'Tailwindcss',
-      image:logoTailw
-    },
-    { name: 'Git',
-    image:logoGit
-  },
-  { name: 'GitHub',
-  image:logoGitHub
-},
-{ name: 'Visual code',
-image:logoVcode
-},
+          image:logoCss
+        },
+        { name: 'Tailwindcss',
+          image:logoTailw
+        },
+        { name: 'Git',
+          image:logoGit
+        },
+        { name: 'GitHub',
+          image:logoGitHub
+        },
+        { name: 'Visual code',
+          image:logoVcode
+        },
 
     ]
 
@@ -50,9 +50,7 @@ image:logoVcode
                                 <p className="textLogo">{skill.name}</p>
                             </div>
                         ))}
-                    </div>
-                      
-             
+                    </div>      
         )
     }
 

@@ -1,12 +1,12 @@
 import React from "react";
 import './styles.css';
-import proyect1 from '../img/logoDA1.png';
 import logoReact from '../img/LogoReact.png';
 import logoJS from '../img/LogoJs.png';
 import logoCss from '../img/LogoCss.png';
 import logoTailw from '../img/LogoTaiw.png';
 import logoHtml from '../img/LogoHtml.png';
 import imgProyectEcommerce from '../img/ProyectEcommerce.png';
+import imgProyectGolky from '../img/ProyectGolky.png';
 
 function Portfolio(){
 
@@ -54,7 +54,7 @@ function Portfolio(){
                 </div>
             
                 <div className="cardProyect">
-                <img className='imgProyect' src={proyect1} alt='img' />
+                <img className='imgProyect' src={imgProyectGolky} alt='img' />
                 <h3 className="titleProyect">Collaboration in Golky</h3>
                 <p className="descriptionProyect">
                      I have collaborated with the creation of some interfaces 

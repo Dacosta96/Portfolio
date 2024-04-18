@@ -1,7 +1,6 @@
 .contact{
-    height: 100vh;
+    height: auto;
     color: white;
-  
     text-align: center;
 }
 
@@ -15,10 +14,27 @@
 .info div{
     width: auto;
     padding: 12px;
-    background: black;
     margin: 0 150px;
 }
 
-.send{
-    margin-top: 150px;
+.iconContac{
+    width: 36px;
+    height: 36px;
 }
+.logoFollow{
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    border-radius: 12px;
+}
+.logoFollow:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+}
+
+
+.send{
+    margin-top: 50px;
+    opacity: 0%;
+}
+
