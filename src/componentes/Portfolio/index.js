@@ -12,7 +12,7 @@ function Portfolio(){
 
     const handleOpenProyect1 = () =>{
         
-        window.open('https://lighthearted-sawine-ffe1bd.netlify.app/', '_blank');
+        window.open('https://shopi-d.netlify.app/', '_blank');
     }
 
     const handleCodeProyect1 =() =>{
