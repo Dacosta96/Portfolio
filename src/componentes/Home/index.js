@@ -25,9 +25,6 @@ function Home(){
         
       }
 
-     const handleCv = () =>{
-      window.open( {doc},'_blank');
-     }
 
     return(
         <div className="home">

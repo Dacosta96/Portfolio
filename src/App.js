@@ -26,9 +26,9 @@ function App() {
       {/* <div className="nav"><Navbar /></div> */}
       <div className="app"  onMouseMove={cambiarColor}>
             <Home/>
-            <AboutMe/>
+            {/* <AboutMe/>
             <Portfolio/>
-            <Contact/>
+            <Contact/> */}
       </div>
    
     </>
