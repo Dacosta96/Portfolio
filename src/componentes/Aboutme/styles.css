@@ -106,3 +106,56 @@
     grid-template-columns: 50% 50%;
     gap: 16px;
 }
+
+@media (max-width: 640px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .container2{
+        max-width: 100%;
+
+    }
+    .aboutMe{
+        font-size: 6vw;  
+    }
+
+    .contenido {
+        font-size:small;
+        margin-left: 5%;
+        margin-right: 5%
+    }
+    .skills{
+        margin-left: 2%;
+        margin-right: 5%;
+        font-size: 6vw;
+        height: auto;
+        
+    }
+    .icon-cards__content{
+        display: flex;
+        border: black solid; 
+        align-items: center;
+        width: auto;
+        max-height: 30px;
+        border-radius: 16px;
+        padding: 4px;
+        background: rgb(6, 10, 20);
+       
+      }
+      .item{
+          width: 12px;
+          height: 12px;
+      }
+      .textLogo{
+          font-size:small;
+          margin:0;
+          width: 100%;
+      }
+      .tags{
+        gap: 8px;
+    }
+}

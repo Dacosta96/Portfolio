@@ -149,7 +149,7 @@
     height: auto;
     color: white;
     justify-content: center;
-    height: 100vh;
+    height: auto;
   }
   .description{
     display:flex;
