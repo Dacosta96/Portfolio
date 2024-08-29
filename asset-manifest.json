@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0d337c5c.css",
-    "main.js": "/Portfolio/static/js/main.eabdce3b.js",
+    "main.js": "/Portfolio/static/js/main.a124ae70.js",
     "static/js/453.7d1ffe6d.chunk.js": "/Portfolio/static/js/453.7d1ffe6d.chunk.js",
     "static/media/ProyectGolky.png": "/Portfolio/static/media/ProyectGolky.c088606db1ba4d465ca0.png",
     "static/media/ProyectEcommerce.png": "/Portfolio/static/media/ProyectEcommerce.a5210ba2a19f8adbd413.png",
+    "static/media/LogoMongo.png": "/Portfolio/static/media/LogoMongo.6170bacefd8a1f69ca74.png",
     "static/media/foto1.png": "/Portfolio/static/media/foto1.85b8327f08d12f7106f8.png",
-    "static/media/HV_Diego_Acosta.pdf": "/Portfolio/static/media/HV_Diego_Acosta.46e997c36c840c603553.pdf",
+    "static/media/HV_Diego_Acosta.pdf": "/Portfolio/static/media/HV_Diego_Acosta.61ea2ae1c9bba69c2686.pdf",
+    "static/media/ProjectCrm.jpg": "/Portfolio/static/media/ProjectCrm.a64a8c83467f7dd656e6.jpg",
     "index.html": "/Portfolio/index.html",
     "main.0d337c5c.css.map": "/Portfolio/static/css/main.0d337c5c.css.map",
-    "main.eabdce3b.js.map": "/Portfolio/static/js/main.eabdce3b.js.map",
+    "main.a124ae70.js.map": "/Portfolio/static/js/main.a124ae70.js.map",
     "453.7d1ffe6d.chunk.js.map": "/Portfolio/static/js/453.7d1ffe6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d337c5c.css",
-    "static/js/main.eabdce3b.js"
+    "static/js/main.a124ae70.js"
   ]
 }
