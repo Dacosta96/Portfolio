@@ -9,14 +9,16 @@ import logoHtml from "../img/LogoHtml.png";
 import imgProyectEcommerce from "../img/ProyectEcommerce.png";
 import imgProyectGolky from "../img/ProyectGolky.png";
 import imgProyectCrm from "../img/ProjectCrm.jpg";
+import awsImg from "../img/aws-color.png";
+import esa from "../img/esa.png";
 
 function Portfolio() {
   const handleOpenProyect1 = () => {
-    window.open("https://shopi-d.netlify.app/", "_blank");
+    window.open("https://www.equipmentshoparound.com/", "_blank");
   };
 
   const handleCodeProyect1 = () => {
-    window.open("https://github.com/Dacosta96/Project_ecommerce", "_blank");
+    alert("Sorry, this page is not public");
   };
 
   const handleOpenProyect2 = () => {
@@ -94,15 +96,18 @@ function Portfolio() {
         </div>
 
         <div className="cardProyect">
-          <img className="imgProyect" src={imgProyectEcommerce} alt="img" />
-          <h3 className="titleProyect">Ecommerce Shopi-d</h3>
+          <img className="imgProyect" src={esa} alt="img" />
+          <h3 className="titleProyect">Equipment shop around</h3>
           <p className="descriptionProyect">
-            This is a frontend project developed entirely with React. It
-            provides an intuitive and attractive user interface for an
-            e-commerce application.
+            I created Equipment Shop Around, a web platform developed for a
+            client in the U.S. that allows users to compare and search for heavy
+            machinery in an easy and interactive way. Using modern technologies,
+            I built an intuitive interface and an efficient system for
+            displaying equipment, enhancing the shopping experience and
+            simplifying decision-making.
           </p>
           <div className="logoTech">
-            <img className="logoTech_logo" src={logoHtml} alt="img" />
+            <img className="logoTech_logo" src={awsImg} alt="img" />
             <img className="logoTech_logo" src={logoJS} alt="img" />
             <img className="logoTech_logo" src={logoReact} alt="img" />
             <img className="logoTech_logo" src={logoCss} alt="img" />
