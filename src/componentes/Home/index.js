@@ -4,7 +4,7 @@ import "./styles.css";
 import foto1 from "../img/foto1.png";
 import logoLinke from "../img/Logolinkedin.png";
 import { DocumentIcon } from "@heroicons/react/24/solid";
-import doc from "./HV_Diego_Acosta.pdf";
+import doc from "./Diego.pdf";
 
 function Home() {
   const [texto, setTexto] = useState("Frontend Developer");
