@@ -4,8 +4,7 @@ import "./styles.css";
 import foto1 from "../img/foto1.png";
 import logoLinke from "../img/Logolinkedin.png";
 import { DocumentIcon } from "@heroicons/react/24/solid";
-import docES from "./Diego hv.pdf";
-import docEN from "./Diego hv(2).pdf";
+import doc from "./Diego hv.pdf";
 
 function Home() {
   const [texto, setTexto] = useState("Frontend Developer");
@@ -34,19 +33,16 @@ function Home() {
   return (
     <div className="home">
       <div className="description">
-        <h2 className="hi">Hi, I´m </h2>
+        <h2 className="hi">Hi, I'm </h2>
         <h1 className="name">Diego Acosta</h1>
         <h1 className="profession">{texto}</h1>
 
         <div className="tagsHome">
-          <a className="icon-cards" href={docES} download>
+          <a className="icon-cards" href={doc} download>
             <DocumentIcon className="itemHome" />
-            <p>Curriculum Vitae (ES)</p>
+            <p>Download CV</p>
           </a>
-          <a className="icon-cards" href={docEN} download>
-            <DocumentIcon className="itemHome" />
-            <p>Curriculum Vitae (EN)</p>
-          </a>
+
           <div className="icon-cards" onClick={handleLinke}>
             <img className="itemHome" src={logoLinke} alt="img" />
             <p>LinkedIn</p>
