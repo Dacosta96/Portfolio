@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "htts://Dacosta96.github.io/Portfolio",
+  "homepage": "https://Dacosta96.github.io/Portfolio",
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
